@@ -68,7 +68,15 @@ Network packet analysis helps cybersecurity analysts understand network communic
 
 ## Project Evidence
 
-Screenshot of the Wireshark TCP packet analysis will be added here.
+### TCP Packet Capture and Analysis
+
+The screenshot below demonstrates live network packet capture using Wireshark 4.6.9.
+
+Applied the `tcp` display filter to examine TCP communications, source and destination ports, packet sizes, and sequence numbers.
+
+The capture contained 4,920 packets, with 4,047 packets displayed after filtering.
+
+![Wireshark TCP Packet Analysis](Wireshark-TCP-Packet-Analysis.png)
 
 ## Lessons Learned
 
